@@ -17,7 +17,7 @@ const publicFiles = new Set([
   ...publicAssets.map(name => `assets/${name}`),
 ]);
 
-export function getSiteUrl(value = process.env.SITE_URL || 'https://seolcoding.github.io/microaxlab/') {
+export function getSiteUrl(value = process.env.SITE_URL || 'https://microaxlab.com/') {
   const url = new URL(value);
   if (!['https:', 'http:'].includes(url.protocol) || url.username || url.password || url.search || url.hash) {
     throw new Error('SITE_URL은 쿼리나 계정 정보가 없는 http(s) 주소여야 합니다.');

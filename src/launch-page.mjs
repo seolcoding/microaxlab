@@ -18,7 +18,7 @@ function video({ id, file, poster, label, caption }) {
   </div><p class="media-note" id="${id}-caption">${escape(caption)}</p>`;
 }
 
-export function launchPage({ siteUrl = 'https://seolcoding.github.io/microaxlab/' } = {}) {
+export function launchPage({ siteUrl = 'https://microaxlab.com/' } = {}) {
   const canonical = new URL(siteUrl.endsWith('/') ? siteUrl : `${siteUrl}/`).href;
   const absolute = (path) => new URL(path, canonical).href;
   const title = 'MicroAXLab | 우리 가게를 위한 작은 AI 도움';
