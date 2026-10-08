@@ -1,0 +1,44 @@
+.DS_Store
+node_modules/
+.hyperframes/
+artifacts/
+
+# Generated websites and private local work
+/dist/
+/out/
+/_workspace/
+/archive/
+/brag-output*/
+/videos/
+/.agents/
+/docs/
+/skills-lock.json
+/.env
+/.env.*
+
+# Keep the original comparison build local.
+/scripts/build-review.mjs
+
+# Only the production homepage sources are public.
+/src/*
+!/src/launch-page.mjs
+!/src/launch-content.mjs
+!/src/launch.js
+!/src/styles/
+!/src/assets/
+/src/styles/*
+!/src/styles/launch.css
+/src/assets/*
+!/src/assets/PretendardVariable.woff2
+!/src/assets/Pretendard-LICENSE.txt
+!/src/assets/favicon.svg
+!/src/assets/founder.jpg
+!/src/assets/gukbap-kitchen.jpg
+!/src/assets/gukbap-bowl.jpg
+!/src/assets/gimbap-plate.jpg
+!/src/assets/jokbal-board.jpg
+!/src/assets/microaxlab_food_v2.mp4
+!/src/assets/microaxlab_food_v2_poster.jpg
+!/src/assets/gukbap_promo.mp4
+!/src/assets/gukbap_promo_poster.jpg
+!/src/assets/social-preview.jpg
